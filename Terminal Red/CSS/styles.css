@@ -1,0 +1,69 @@
+/* Estilo general */
+body {
+  font-family: "Times New Roman", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Encabezado principal */
+h1 {
+  color: #ff0000;
+  text-align: center;
+}
+
+/* Tabla */
+table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Clase para buses retrasados */
+.retrasado {
+  color: rgb(0, 4, 255);
+  font-weight: bold;
+  
+}
+/* Logo */
+.logo {
+  width: 100px;   
+  height: auto;   
+}
+
+/* Header */
+.site-header {
+  background-color: #6e6a6a89; /* pone el color al encabezado */
+  padding: 10px 20px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;    /* Centra el logo y el menú */
+  justify-content: space-between; /* Logo a la izquierda, menú a la derecha */
+}
+
+/* Menú de navegación donde esta el inico */
+.main-nav a {
+  text-decoration: none;
+  color: #003366;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: #ff0000; /* Efecto hover donde se pasa encima del mouse */
+}
+/*vehículos */
+.vehiculos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; /* para que se acomoden en la pantalla */
+}
+
+

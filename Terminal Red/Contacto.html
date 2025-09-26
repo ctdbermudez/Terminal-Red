@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+  <meta charset="UTF-8"> 
+  <title>Contacto - Terminal de Transporte Red</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+  <!-- Encabezado con logo y navegación -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="Imagenes/logo.jpg" class="logo">
+      <nav class="main-nav"> 
+        <a href="index.html">Inicio</a>
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- titulo-->
+  <h1>Contáctanos</h1>
+  <p>Aquí podras consultarcostos, cotizaciones y la comprar  tus tiquetes en línea.</p>
+
+  <!-- Costos y cotizacion -->
+  <h2>Costos  y cotizacion de destinos</h2>
+  <table border="1">
+    <tr>
+      <th>Destino</th>
+      <th>Costo</th>
+    </tr>
+    <tr>
+      <td>Bogotá</td>
+      <td>$50.000</td>
+    </tr>
+    <tr>
+      <td>Cali</td>
+      <td>$80.000</td>
+    </tr>
+    <tr>
+      <td>Melgar</td>
+      <td>$25.000</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- Formulario donde se simula la compra en linea-->
+<section id="Compra en  linea">
+  <h2>Compra en linea</h2>
+  <!-- Subtítulo de la sección -->
+
+  <!-- Formulario identificado con "formContacto" 
+       para poder manipularlo luego con JavaScript -->
+  <form id="formCompra en linea">
+
+    <!-- Campo de texto para escribir el nombre -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br>
+
+    <!-- Campo para introducir el correo electrónico -->
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" required><br>
+
+    <!-- Área de texto para escribir un destino -->
+    <label for="destino">Destino:</label>
+    <textarea id="destino" required></textarea><br>
+
+    <!-- Botón para enviar el formulario -->
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+<script src="Java/Main.js"></script>
+</body>
+</html>
